@@ -1,0 +1,97 @@
+/*.track {
+	background-color: black;
+	height: 75px;
+	width: 600px;
+}
+
+#blueCar {
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	position: relative;
+	left: 0px;
+}
+
+#redCar {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	left: 0px;
+}
+
+*/
+.track {
+    width: 1000px;
+    height: 250px;
+    position: inherit;
+    margin: auto;
+}
+
+.lane {
+    height: 100px;
+    width: 800px;
+    border-right: 5px solid black;
+    background-color: gray;
+    margin: auto;
+}
+
+
+.ctrl {
+    width: 50%;
+    margin: auto;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#header {
+    text-align: center;
+    margin: auto;
+}
+
+#message {
+    height: 100px;
+    /*text-align: center;*/
+}
+
+#laneone {
+    border-bottom: 10px dashed yellow;
+    border-top: 20px solid green;
+}
+
+#lanetwo {
+    border-top: 10px dashed yellow;
+    border-bottom: 20px solid green;
+}
+
+#blueCar {
+    width: 60px;
+    height: 60px;
+    background: url("images/taxi.png") no-repeat center transparent;
+    background-size: cover;
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 15%;
+}
+
+#redCar {
+    width: 60px;
+    height: 60px;
+    background: url("images/redcar.png") no-repeat center transparent;
+    background-size: cover;
+    transform: rotate(180deg);
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 15%;
+}
+
+#controls {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
