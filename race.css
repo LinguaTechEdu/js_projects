@@ -1,26 +1,3 @@
-/*.track {
-	background-color: black;
-	height: 75px;
-	width: 600px;
-}
-
-#blueCar {
-	width: 50px;
-	height: 50px;
-	background-color: blue;
-	position: relative;
-	left: 0px;
-}
-
-#redCar {
-	width: 50px;
-	height: 50px;
-	background-color: red;
-	position: relative;
-	left: 0px;
-}
-
-*/
 .track {
     width: 1000px;
     height: 250px;
@@ -35,7 +12,6 @@
     background-color: gray;
     margin: auto;
 }
-
 
 .ctrl {
     width: 50%;
@@ -94,4 +70,20 @@
     width: 100%;
     height: 100px;
     margin: auto;
+}
+
+button {
+	width: 75%;
+	height: 50px;
+	margin: 25px;
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+	background-color: black;
+	border: orange solid 5px;
+}
+
+button:hover {
+	background-color: gray;
+	color: black;
 }

@@ -3,7 +3,7 @@ window.onload = function() {
 	var blueCar = document.getElementById('blueCar');
 	var redCar = document.getElementById('redCar');
 	var speed = 20;
-	var trackLength = 600;
+	var trackLength = 750;
 
 	document.addEventListener('keydown', drive);
 
@@ -27,10 +27,17 @@ window.onload = function() {
 		// car.style.left will not be visible unless it is an inline HTML style!
 		var carPosition = parseInt(car.style.left) || 0
 		if (carPosition < trackLength) {
-			pos = carPosition + speed
-			car.style.left = pos + 'px'
+			pos = carPosition + speed;
+			car.style.left = pos + 'px';
 		} else {
 			alert("We have a winner!")
 		}
 	}
+}
+
+// How about a reset button ...
+function reset() {
+    console.log("Resetting.");
+    blueCar.style.left = '0px';
+    redCar.style.left = '0px';
 }
